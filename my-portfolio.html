@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="normalize.css">
+<style>
+    .main>div>a{
+        background-color: #273579;
+        width:150px;
+        height:30px;
+        position:relative;
+        text-align: center;
+        left:1100px;
+        border-radius:5px ;
+        display:inline-block;
+        color: white;
+        justify-content: space-between;
+    }
+    .main>div>p{
+        font-style: italic;
+        font-family: "Noto Sans Mono";
+        font-weight: bold;
+        font-size: xxx-large;
+        top:100px;
+        left:80px;
+        position:absolute;
+        color: #37337c;
+    }
+    .nameIntroduce{;
+        top:300px;
+        width:500px;
+        position: absolute;
+        left:300px;
+    }
+    .nameIntroduce>h5{
+        font-family: FreeSerif;
+        font-size: xx-large;
+        position: absolute;
+    }
+    .nameIntroduce>h3{
+        top:30px;
+        left:20px;
+        font-family: "Noto Serif CJK SC";
+        font-size: xxx-large;
+        position: absolute;
+        color: #37337c;
+
+    }
+    #introduction{
+        width:500px;
+        top:100px;
+        left:50px;
+        position: relative;
+        font-family: "Noto Sans CJK SC";
+        font-size: xx-large;
+        font-weight: lighter;
+        font-style: normal;
+        color: black;
+    }
+
+    .btn-3{
+        top:300px;
+        left:100px;
+        width:200px;
+        height: 40px;
+        position: absolute;
+        border-radius:10px ;
+        font-family: "Noto Mono";
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+
+    }
+    .btn-3 {
+        background: rgb(66, 139, 167);
+        background: linear-gradient(0deg, rgb(81, 52, 149) 0%, rgb(30, 85, 141) 100%);
+        width: 150px;
+        height: 40px;
+        line-height: 42px;
+        padding: 0;
+        border: none;
+
+    }
+    .btn-3 span {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .btn-3:before,
+    .btn-3:after {
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 0;
+        background: rgba(2,126,251,1);
+        transition: all 0.3s ease;
+    }
+    .btn-3:before {
+        height: 0%;
+        width: 2px;
+    }
+    .btn-3:after {
+        width: 0%;
+        height: 2px;
+    }
+    .btn-3:hover{
+        background: transparent;
+        box-shadow: none;
+    }
+    .btn-3:hover:before {
+        height: 100%;
+    }
+    .btn-3:hover:after {
+        width: 100%;
+    }
+    .btn-3 span:hover{
+        color: rgba(2,126,251,1);
+    }
+    .btn-3 span:before,
+    .btn-3 span:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: 0;
+        background: rgba(2,126,251,1);
+        transition: all 0.3s ease;
+    }
+    .btn-3 span:before {
+        width: 2px;
+        height: 0%;
+    }
+    .btn-3 span:after {
+        width: 0%;
+        height: 2px;
+    }
+    .btn-3 span:hover:before {
+        height: 100%;
+    }
+    .btn-3 span:hover:after {
+        width: 100%;
+    }
+    .image1 {
+        top:300px;
+        left:1200px;
+        position: relative;
+        height:  300px;
+        width: 300px;
+        border-radius:100%;
+        display: block;
+        background: linear-gradient(0deg, #283b9c, #444444);
+    }
+
+    .glowing::before{
+        content: '';
+        position: absolute;
+        left: -2px;
+        top: -2px;
+        border-radius:100%;
+
+        background: linear-gradient(45deg, #644acb, rgba(147, 120, 191, 0.85), #65a4b1, #a789aa, #ad27ad, #bd2681, #6512b9, #ff3300de, #5aabde);
+        background-size: 400%;
+        width: calc(100% + 10px);
+        height: calc(100% + 10px);
+        z-index: -1;
+        animation: glower 20s linear infinite;
+    }
+
+    @keyframes glower {
+        0% {
+            background-position: 0 0;
+        }
+
+        50% {
+            background-position: 400% 0;
+        }
+
+        100% {
+            background-position: 0 0;
+        }
+    }
+
+
+</style>
+
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <a href="#aboutme">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contactME">Contact Me</a>
+
+  <p>
+      Welcome to my portfolio
+  </p>
+    </div>
+    <div class="nameIntroduce">
+        <h5>Hello I'm</h5>
+        <h3>Thamasha Deduni</h3>
+        <p id="introduction">
+            I'm a undergraduate Frontend Developer, java programmer and html css coder
+        </p>
+        <button class="custom-btn btn-3"><span>Download Cv</span></button>
+    </div>
+    <div class="image1 glowing"></div>
+
+</div>
+
+</body>
+</html>
