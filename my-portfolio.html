@@ -286,7 +286,7 @@
         background: linear-gradient(45deg, rgba(119, 136, 153, 0.85), #64b7ae, #6b5c90, #8d4f9f, #6512b9, #5aabde);
         background-size: 400%;
         width: calc(100% + 5px);
-        height: calc(100% + 5px);
+        height: calc(100% + 7px);
         z-index: -1; /* Set z-index to -1 to keep it behind the content */
         animation: Glower 20s linear infinite;
         border-radius: 20px; /* Moved border-radius to the ::before pseudo-element */
@@ -304,6 +304,12 @@
         100% {
             background-position: 0 0;
         }
+    }
+
+    .image2>img{
+        left:1300px;
+        top:1600px;
+        position: absolute;
     }
 
 
@@ -345,6 +351,9 @@
    </div>
     <div class="education">
         <h3>Education</h3>
+        <div class="image2">
+            <img src="assert/img/Learning-amico.png" width="500" height="400px">
+        </div>
         <div class="educationDetail">
         <div>
             <p>Graduate diploma in Computer Science At Ijse</p>
