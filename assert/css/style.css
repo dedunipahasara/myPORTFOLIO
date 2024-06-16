@@ -725,11 +725,11 @@ span{
     }
     .skills-box img{
 
-        width:10rem;
+        width:6rem;
         border-radius: 20px;
     }
     .skill-item{
-        min-height: 200px;
+        min-height: 100px;
     }
 
 }
