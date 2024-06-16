@@ -280,7 +280,7 @@ span{
 
 .about-img img{
     position: relative;
-    width:32vw;
+    width:16vw;
     border-radius:50%;
     box-shadow: 0 0 15px var(--main-color);
     top:1rem;
