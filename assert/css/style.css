@@ -435,14 +435,14 @@ span{
 }
 
 .wrapper{
-    height:200px;
+    height:300px;
     display:grid;
     grid-template-columns: repeat(4,1fr);
     gap:3rem;
 }
 .skill-item{
     border-radius:35px;
-    min-height:120px ;
+    min-height:50px ;
     min-width:125px;
     background: black;
     backdrop-filter: blur(20px);
