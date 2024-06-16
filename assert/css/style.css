@@ -430,7 +430,7 @@ span{
     margin-bottom: 8rem;
 }
 .skills-box img{
-    width:12rem;
+    width:10rem;
     border-radius: 20px;
 }
 
@@ -442,7 +442,7 @@ span{
 }
 .skill-item{
     border-radius:35px;
-    min-height:50px ;
+    min-height:120px ;
     min-width:125px;
     background: black;
     backdrop-filter: blur(20px);
