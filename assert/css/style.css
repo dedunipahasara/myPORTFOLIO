@@ -646,7 +646,7 @@ span{
     }
     .skills-box img{
 
-        width:10rem;
+        width:6rem;
         border-radius: 20px;
     }
     .skill-item{
@@ -720,12 +720,12 @@ span{
         grid-template-columns: repeat(1,1fr);
     }
     .skills .wrapper{
-        grid-template-columns: repeat(1,4fr);
+        grid-template-columns: repeat(2,3fr);
         height: 300px;
     }
     .skills-box img{
 
-        width:6rem;
+        width:4rem;
         border-radius: 20px;
     }
     .skill-item{
