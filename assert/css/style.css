@@ -741,6 +741,10 @@ span{
     }
     .project-item{
         min-height: 80px;
+        gap:2rem;
+    }
+    .project-item>img>a>h4{
+        font-size: xx-large;
     }
 
 }
