@@ -731,5 +731,16 @@ span{
     .skill-item{
         min-height: 100px;
     }
+    .project .wrapper{
+        grid-template-columns:repeat(3,4fr) ;
+        height:100px;
+    }
+    .project-box img{
+        width:4rem;
+        border-radius: 20px;
+    }
+    .project-item{
+        min-height: 80px;
+    }
 
 }
